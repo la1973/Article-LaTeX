@@ -1,0 +1,205 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=latex 2011.11.16)  25 NOV 2011 17:26
+entering extended mode
+**artigo_v2.tex
+
+(C:\Users\Luciano\Documents\Doutorado_CCS\Modelagem\luciano\LaTeX\artigo_v2.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size11.clo"
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: dvips.def on input line 130.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\dvips.def"
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+)
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\indentfirst.sty"
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(C:\Users\Luciano\Documents\Doutorado_CCS\Modelagem\luciano\LaTeX\artigo_v2.aux
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 30.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 30.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 30.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 32.
+ [1
+
+] [2]
+Missing character: There is no “ in font cmr10!
+Missing character: There is no ” in font cmr10!
+ [3]
+File: figart.ps Graphic file (type eps)
+ <figart.ps> [4] [5]
+File: quadro1.ps Graphic file (type eps)
+ <quadro1.ps> [6]
+File: quadro2.ps Graphic file (type eps)
+ <quadro2.ps> [7] [8]
+Overfull \hbox (7.76538pt too wide) in paragraph at lines 181--182
+[][]\OT1/cmr/m/n/10.95 One of the cen-tral char-ac-ter-is-tics of suc-cess-ful 
+dis-tributed soft-ware projects
+ []
+
+[9] [10] [11] [12] [13] [14]
+Missing character: There is no ’ in font cmr10!
+ [15]
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+[][]\OT1/cmr/m/n/10.95 Pena-Mora F. and Lyneis J.M. (2009),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+\OT1/cmr/m/n/10.95 Sys-tem and Project Man-age-ment,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+\OT1/cmr/m/n/10.95 http://www.goodreads.com/book/show/5023938-system-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 281--283
+[][]\OT1/cmr/m/n/10.95 Bellinger G. (2008), Archetypes Sys-tems,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 281--283
+\OT1/cmr/m/n/10.95 http://www.systemdynamics.org/wiki/index.php/System
+ []
+
+
+Overfull \hbox (32.31465pt too wide) in paragraph at lines 290--291
+[][]\OT1/cmr/m/n/10.95 NetLogo Mod-els Li-brary, http://ccl.northwestern.edu/ne
+tlogo/models 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
+[][]\OT1/cmr/m/n/10.95 AnyLogic sim-u-la-tion soft-ware,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
+[][]\OT1/cmr/m/n/10.95 Tom Fid-daman's Sys-tem Dy-nam-ics Model Li-brary,
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
+[][]\OT1/cmr/m/n/10.95 Research on Re-search, DUKE Uni-ver-sity,
+ []
+
+
+Overfull \hbox (74.83727pt too wide) in paragraph at lines 306--307
+[][]\OT1/cmr/m/n/10.95 System Dy-nam-ics So-ci-ety, http://www.systemdynamics.o
+rg/biblio/sdbibi.html 
+ []
+
+[17]
+Missing character: There is no “ in font cmr10!
+Missing character: There is no ’ in font cmr10!
+Missing character: There is no ” in font cmr10!
+
+Underfull \hbox (badness 1527) in paragraph at lines 322--323
+[][]\OT1/cmr/m/n/10.95 The R Project for Sta-tis-ti-cal Com-put-ing, http://www
+.r-
+ []
+
+Missing character: There is no “ in font cmr10!
+Missing character: There is no ” in font cmr10!
+
+Overfull \hbox (13.8214pt too wide) in paragraph at lines 328--329
+[][]\OT1/cmr/m/n/10.95 Github, https://git.wiki.kernel.org/index.php/GitSvnComp
+arsion 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
+[][]\OT1/cmr/m/n/10.95 Duke Uni-ver-sity Med-i-cal Cen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
+[][]\OT1/cmr/m/n/10.95 Archetypes In-ter-ac-tion Struc-tures of the Uni-verse,
+ []
+
+[18]
+(C:\Users\Luciano\Documents\Doutorado_CCS\Modelagem\luciano\LaTeX\artigo_v2.aux
+) ) 
+Here is how much of TeX's memory you used:
+ 787 strings out of 494046
+ 10920 string characters out of 3145985
+ 59082 words of memory out of 3000000
+ 4120 multiletter control sequences out of 15000+200000
+ 9119 words of font info for 32 fonts, out of 3000000 for 9000
+ 715 hyphenation exceptions out of 8191
+ 25i,7n,19p,1512b,250s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on artigo_v2.dvi (18 pages, 61844 bytes).
