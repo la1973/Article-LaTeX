@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=latex 2011.11.16)  27 NOV 2011 00:24
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=latex 2011.11.16)  27 NOV 2011 21:37
 entering extended mode
-**artigo_v2.tex
-(C:\Users\Luciano\article\LaTeX\artigo_v2.tex
+**artigo*LaTeX2711.tex
+("C:\Users\Luciano\article\LaTeX\artigo LaTeX2711.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -68,7 +68,7 @@ Package graphics Info: Driver file: dvips.def on input line 91.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\indentfirst.sty"
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(C:\Users\Luciano\article\LaTeX\artigo_v2.aux)
+("C:\Users\Luciano\article\LaTeX\artigo LaTeX2711.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
@@ -93,13 +93,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ] [2] [3]
 File: figart.ps Graphic file (type eps)
- <figart.ps> [4]
-[5]
+
+<figart.ps> [4] [5]
 File: quadro1.ps Graphic file (type eps)
  <quadro1.ps>
 File: quadro2.ps Graphic file (type eps)
  <quadro2.ps> [6] [7] [8]
-Overfull \hbox (7.76538pt too wide) in paragraph at lines 177--178
+Overfull \hbox (7.76538pt too wide) in paragraph at lines 175--176
 [][]\OT1/cmr/m/n/10.95 One of the cen-tral char-ac-ter-is-tics of suc-cess-ful 
 dis-tributed soft-ware projects
  []
@@ -107,53 +107,53 @@ dis-tributed soft-ware projects
 [9] [10] [11] [12] [13] [14]
 Missing character: There is no ’ in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
+Underfull \hbox (badness 10000) in paragraph at lines 264--265
 [][]\OT1/cmr/m/n/10.95 Pena-Mora F. and Lyneis J.M. (2009),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
+Underfull \hbox (badness 10000) in paragraph at lines 264--265
 \OT1/cmr/m/n/10.95 Sys-tem and Project Man-age-ment,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
+Underfull \hbox (badness 10000) in paragraph at lines 264--265
 \OT1/cmr/m/n/10.95 http://www.goodreads.com/book/show/5023938-system-
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 276--278
+Underfull \hbox (badness 10000) in paragraph at lines 274--276
 [][]\OT1/cmr/m/n/10.95 Bellinger G. (2008), Archetypes Sys-tems,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--278
+Underfull \hbox (badness 10000) in paragraph at lines 274--276
 \OT1/cmr/m/n/10.95 http://www.systemdynamics.org/wiki/index.php/System
  []
 
 
-Overfull \hbox (32.31465pt too wide) in paragraph at lines 285--286
+Overfull \hbox (32.31465pt too wide) in paragraph at lines 283--284
 [][]\OT1/cmr/m/n/10.95 NetLogo Mod-els Li-brary, http://ccl.northwestern.edu/ne
 tlogo/models 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 287--288
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
 [][]\OT1/cmr/m/n/10.95 AnyLogic sim-u-la-tion soft-ware,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
+Underfull \hbox (badness 10000) in paragraph at lines 287--288
 [][]\OT1/cmr/m/n/10.95 Tom Fid-daman's Sys-tem Dy-nam-ics Model Li-brary,
  []
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 297--298
+Underfull \hbox (badness 10000) in paragraph at lines 295--296
 [][]\OT1/cmr/m/n/10.95 Research on Re-search, DUKE Uni-ver-sity,
  []
 
 
-Overfull \hbox (74.83727pt too wide) in paragraph at lines 301--302
+Overfull \hbox (74.83727pt too wide) in paragraph at lines 299--300
 [][]\OT1/cmr/m/n/10.95 System Dy-nam-ics So-ci-ety, http://www.systemdynamics.o
 rg/biblio/sdbibi.html 
  []
@@ -162,7 +162,7 @@ Missing character: There is no “ in font cmr10!
 Missing character: There is no ’ in font cmr10!
 Missing character: There is no ” in font cmr10!
 
-Underfull \hbox (badness 1527) in paragraph at lines 317--318
+Underfull \hbox (badness 1527) in paragraph at lines 315--316
 [][]\OT1/cmr/m/n/10.95 The R Project for Sta-tis-ti-cal Com-put-ing, http://www
 .r-
  []
@@ -170,29 +170,29 @@ Underfull \hbox (badness 1527) in paragraph at lines 317--318
 Missing character: There is no “ in font cmr10!
 Missing character: There is no ” in font cmr10!
 [17]
-Overfull \hbox (13.8214pt too wide) in paragraph at lines 323--324
+Overfull \hbox (13.8214pt too wide) in paragraph at lines 321--322
 [][]\OT1/cmr/m/n/10.95 Github, https://git.wiki.kernel.org/index.php/GitSvnComp
 arsion 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--336
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
 [][]\OT1/cmr/m/n/10.95 Duke Uni-ver-sity Med-i-cal Cen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 337--338
+Underfull \hbox (badness 10000) in paragraph at lines 335--336
 [][]\OT1/cmr/m/n/10.95 Archetypes In-ter-ac-tion Struc-tures of the Uni-verse,
  []
 
-[18] (C:\Users\Luciano\article\LaTeX\artigo_v2.aux) ) 
+[18] ("C:\Users\Luciano\article\LaTeX\artigo LaTeX2711.aux") ) 
 Here is how much of TeX's memory you used:
  787 strings out of 494046
- 10685 string characters out of 3145985
+ 10755 string characters out of 3145985
  59082 words of memory out of 3000000
  4120 multiletter control sequences out of 15000+200000
  9119 words of font info for 32 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 25i,7n,19p,1512b,250s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 25i,7n,19p,1519b,250s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on artigo_v2.dvi (18 pages, 56540 bytes).
+Output written on "artigo LaTeX2711.dvi" (18 pages, 57280 bytes).
