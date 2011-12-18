@@ -47,7 +47,7 @@ A framework to streamline the process of systems modeling
 
 
 \begin{abstract}
-Although simulation represents a major advance in the understanding of problems in complex systems, the field currently does not has standards in place that would guide the reporting of the data underlying each model, the process for model validation.  This lack of common platforms significantly decreases the attractiveness of the field in that comparison across models is difficult, and peer evaluation of whether models should be trusted and used in practice is severely limited.  This article reports on a series of concepts that could serve as the basis for an initial discussion regarding potential platforms wiht the simulation community.  The document covers a proposed platform for research question formulation, literature review, data collection, model analysis, and manuscript writing.  Considerations are then made to counter the prediction that raising quality levels would lead to a decreasing rate in expansion for the field.
+Although simulation represents a major advance in the understanding of problems in complex systems, the field currently does not has standards in place that would guide the reporting of the data underlying each model, the process for model validation.  This lack of common platforms significantly decreases the attractiveness of the field in that comparison across models is difficult, and peer evaluation of whether models should be trusted and used in practice is severely limited.  This article reports on a series of concepts that could serve as the basis for an initial discussion regarding standardized platforms for the design and analysis of System Dynamics models.  The document covers a proposed platform for research question formulation, literature review, data collection, model analysis, and manuscript writing.  Considerations are then made to counter the prediction that raising quality levels would lead to a decreasing rate in expansion for the field.
 
 \
 
@@ -64,11 +64,11 @@ Simulation represents a major analytical advance in a number of scientific field
 	
 To put the simulation of complex systems in perspective, a contrast should be established with previous methods and their limitations.  These previous methods include classical techniques of experimentation that can only control for a few variables at a time, deterministic solutions that require an exact analytical solution, and classical statistical models that are primarily bound to quantitative data sets. In contrast, simulation allows for the inclusion of quantitative and qualitative data, complex interactions among multiple variables, and model manipulation in a variety of ways that allow for prediction, better understanding of the model in relation to the problem being studied, and the analysis of multiple hypothetical interventions.  All of these activities are, however, pending not only on how the model was originally constructed (i.e., which sources of data and information were considered in its formulation), but also how the model has been validated (i.e., compared to problems in the environment where the problem originally occurred).  Currently, a variety of models in the literature lack any use of platforms to streamlined how these models are built and validated \cite{Rand2006}.
 
-The objective of this proposal is therefore to review the literature and propose an initial set of platforms for the creation of simulation models, common to Agent-Based Modeling (ABM) as well as System Dynamics (SD).  These platforms are divided into research question formulation, literature review, data collection, modeling process, and manuscript reporting, each one covered in the following sections.
+The objective of this proposed platform is therefore to review the literature and propose an initial set of platforms for the creation of simulation models for System Dynamics (SD).  These platforms are divided into research question formulation, literature review, data collection, modeling process, and manuscript reporting, each one covered in the following sections.
 
 \section{Research Question Formulation}
 
-Based on a compilation of previous references from SD literature \cite {PenaLyneis2009}, we propose that the process of research question formulation be composed of three main section.  Namely, these sections are (1) Hypothesized conclusion, (2) Variable selection, and (3) Mock results.  
+Based on a compilation of previous references from SD literature \cite {PenaLyneis2009}, we propose that the process of research question formulation be composed of three main sections.  Namely, these sections are (1) Hypothesized conclusion, (2) Variable selection, and (3) Mock results.  
 
 \subsection{Problem definition through a ``hypothesized conclusion''}
 
@@ -106,7 +106,7 @@ SD archetypes have been portrayed as the structural basis determining common typ
 The models can then be used, in modules or as a whole, as the basis for modeling the new problem. Libraries for SD models are somewhat limited, although the public library from Tom Fiddaman \cite{metasd} is available, also including personal libraries such as Jim Thompson's personal library for healthcare models (Jim Thompson, personal communication).  
 
 \subsubsection {Knowledge engineering and model libraries}
-Although existing libraries represent an important resource, the navigation through their content presents significant limitations.  Libraries usually label and describe their models focusing on their main content area (e.g., an emergency room, a fishery model), whereas modelers searching for model templates are usually interested in models with certain behaviors or structural characteristics.  A potential solution for this problem would be the development of a simple computational ontology \cite{ALLEMANGHENDLER2008}  allowing modelers to perform rich semantic search strategies to locate the best possible model to fit their purposes.  This ontology would contain elements describing four main model characteristics, namely, content area, structure, behavior, and model quality.  While in this article we will not focus on content area, likely organized around a folksonomy \cite{WAL2008}, structure and behavior (requiring a group of experts proposing an initial classification validated through the application to existing libraries), the issue of model quality is central and will therefore be more explored in this article.
+Although existing libraries represent an important resource, the navigation through their content presents significant limitations.  Libraries usually label and describe their models focusing on their main content area, e.g., an emergency room, a fishery model. In contrast, researcher searching for templates are usually interested in models with certain behaviors or structural characteristics.  A potential solution for this problem would be the development of a simple computational ontology \cite{ALLEMANGHENDLER2008}  allowing modelers to perform rich semantic search strategies to locate the best possible model to fit their purposes.  This ontology would contain elements describing four main model characteristics, namely, content area, structure, behavior, and model quality.  While in this article we will not focus on content area, likely organized around a folksonomy \cite{WAL2008}, structure and behavior (requiring a group of experts proposing an initial classification validated through the application to existing libraries), the issue of model quality is central and will therefore be more explored in this article.
 
 A wide variation in model quality variation is pervasive in much of the computer simulation literature.  Two essential areas are frequently unclear whenever a model is built, analyzed and reported:  (1) Data sources used to build the model and (2) How the model is validated or, stated in a different manner, how its behavior relates to the environment where the problem is located.  These two areas are addressed in the following sections.
 
@@ -125,7 +125,7 @@ The proposed classification for data sources in baseline models assumes that the
 	\label{fig:quadro1}
 \end{figure}
 
-For SD models each loop is classified separatel. This proposed model should undergo extensive validation using existing libraries before it can be presented as an initial working version.  Of importance, this classification does not stand for a quality judgment or criteria for selecting one model over another.  It also has no implied assumptions on whether qualitative data might be superior to quantitative or vice-versa.  It simply clarifies where exactly the data and information underlying the model comes from, thus allowing readers to judge for themselves on whether they should or not trust model results. 
+Within a given SD models, this classification is then applied to each loop. This proposed model should undergo extensive validation using existing libraries before it can be presented as an initial working version.  Of importance, this classification does not stand for a quality judgment or criteria for selecting one model over another.  It also has no implied assumptions on whether qualitative data might be superior to quantitative or vice-versa.  It simply clarifies where exactly the data and information underlying the model comes from, thus allowing readers to judge for themselves on whether they should or not trust model results. 
 
 The second point where further quality assurance for the model library is required is regarding model validation or how the baseline model corresponds to the behavior presented in the environment where it is located.  A simplified classification for validation is proposed in Table 2. 
 
@@ -152,7 +152,15 @@ Momentum policy \cite{PenaLyneis2009} is a term used within the SD community to 
 \section {Literature review}
 
 \subsection {Content area}
-Protocols on streamlined methods to conduct literature review have been prepared by the Research on Research Group at Duke University on how to conduct a literature review.  These platforms are related to the research question formulation as well as data collection for modeling \cite{researchonresearch113}.  Briefly, the method of Literature Matrices \cite{PiETROBON2004} is proposed, with articles being grouped in clusters associated with loops for SD, and agents.  
+Protocols on streamlined methods to conduct literature review have been prepared by the Research on Research Group at Duke University on how to conduct a literature review (LUCIANO, COLOCARIA O LINK PRA http://www.researchonresearch.duhs.duke.edu/ 
+
+\begin{comment}
+AQUI OU CITARIA NAS REFERENCIAS, FICA A SEU CRITERIO DEPENDENDO DE COMO VOCE ESTEJA LIDANDO COM A COISA NAS OUTRAS PARTES DESSE MESMO ARTIGO).
+\end{comment} 
+
+can be used.
+
+  These platforms are related to the research question formulation as well as data collection for modeling \cite{researchonresearch113}.  Briefly, the method of Literature Matrices \cite{PiETROBON2004} is proposed, with articles being grouped in clusters associated with loops for SD, and agents.  
 
 \subsection {Simulation modeling}
 A literature review for  SD modeling is facilitated by the search of standard sources of information.  These include the bibliographic compiled and constantly updated by the System Dynamics Society \cite{systemdynamics-biblio}, as well as list of journals and books on systems modeling currently in preparation by the Research on Research group at Duke University.  In combination with the model library described in section 2.3.3 and mentorship during distance research coaching programs (described in section 7.4), these resources are expected to improve the overall quality and productivity of the models according to a platform agreed upon by the simulation community.
@@ -161,6 +169,19 @@ A literature review for  SD modeling is facilitated by the search of standard so
 
 \subsection {Qualitative data} 
 Methods for literature review as a source of qualitative information for simulation models were addressed in section 3.  Also, previous literature has been written on optimal methods to conduct qualitative studies to interview stakeholders (experts, users, among others) providing information that can contribute to the simulation model.  This literature has focused on both qualitative methods in general \cite{Yin2002};\cite{Marshall2006}; \cite{Silverman2004}  as well as specific literature for simulation modeling \cite{Laws2004}; \cite{Luna-Reyes2003}.  Rather than claiming for the superiority of one method vs. another, a platform will simply offer a bibliography on the topic so that modelers can cite their method of choice.  More important than pre-judging which method is superior in each situation, appropriate documentation describing which method was used is essential so that readers can judge whether they should believe or not in the inferences made from the model based on the quality of the data. 
+
+In situations where the literature is either non-existing or of poor quality, a Delphi method http://goo.gl/T2XwN 
+
+
+\begin{comment}
+LUCIANO, MESMA COISA 
+\end{comment}
+
+can be used to obtain expert opinion as the basis for the model. Almost invariably Delphi methods will be the most commonly used methods to define the overall structure of the model as this information is not available from the literature unless previous System Dynamics models might already be available from the literature. In conducting a Delphi method, it is important that its methods be reproducible. A dynamic protocol has been developed by the Research on Research Group that addresses reproducibility within Delphi. 
+
+\begin{comment}
+LUCIANO, AQUI EU COLOCARIA A REFERENCIA PRO NOSSO SOP DE DELPHI
+\end{comment}
 
 
 \subsection {Quantitative data}
@@ -173,13 +194,28 @@ When it comes to the modeling process itself, a platform should be in place that
 \subsubsection {Modularity and distributed versioning in model development}
 One of the central characteristics of successful distributed software projects is the ability to create modules that can be executed by individual programmers in a streamlined fashion \cite{Moon2000}.  Because systems modeling usually requires the expertise of multiple specialists from a variety of disciplines, and the criticisms of other modelers on how the model should be structured, validated, and reported, model modularity is a key for the expansion of the field.  Modularity in systems modeling can be accomplished by proper documentation of additional structural, behavioral, or validation tasks that should be accomplished, accompanied by the creation of a reliable and easy to use distributed versioning system.
 
-At this point, our group is evaluating the use of Git \cite{GITCHACON2009} since it seem to be more amenable to the distributed nature of our network \cite{git} contributing to simulation modeling in comparison with previous tools such as subversion \cite{subversion}.  Ideally, these repository would be made publicly available, so that modelers can download files from regular web pages while those actively working on modifying the model can upload modifications directly to Git.
+At this point, our group is evaluating the use of GitHUB
+
+\begin{comment}
+TROCARIA A CITACAO PELO GITHUB
+
+\end{comment}
+\cite{GITCHACON2009} since it seem to be more amenable to the distributed nature of our network \cite{git} contributing to simulation modeling in comparison with previous tools such as subversion \cite{subversion}.  Ideally, these repository would be made publicly available, so that modelers can download files from regular web pages while those actively working on modifying the model can upload modifications directly to GitHub.
 
 \subsubsection {Connection across modeling software packages}
-One of the major limitations in the field is the lack of widespread interoperability across different modeling software packages.  Ideally, one would like to see the implementation of platforms that allow for at least the connection among three major classes of software packages, including statistical packages (such as the open source package R) \cite{r-project}; SD-specific packages (such as Vensim \cite{vensim}) , Stella/Ithink \cite{iseesystems} , and Powersim \cite{powersim}; and agent-based platforms (such as Repast Symphony \cite{repast}.  This would obviously also include software packages that generate hybrid models such as NetLogo \cite{netlogo} and Anylogic \cite{anylogic}.
+One of the major limitations in the field is the lack of widespread interoperability across different modeling software packages.  Ideally, one would like to see the implementation of platforms that allow for at least the connection among three major classes of software packages, including statistical packages (such as the open source package R) \cite{r-project}; SD-specific packages (such as Vensim \cite{vensim}) , Stella/Ithink \cite{iseesystems} , and Powersim \cite{powersim}.
+
+\begin{comment}
+RETIREI VARIAS COISAS DAQUI, DEPOIS POR FAVOR DELETE AS REFERENCIAS CORRESPONDENTES
+\end{comment}
 
 \subsection {Validation}
-An extensive literature has been created regarding the multiple challenges associated with the validation (or impossibility of validation) of simulation models using SD.  The literature has plenty of personal opinions, many of them related to the local experience of the modeler with a restricted set of modeling problems while disregarding problems that are in fields that are foreign to them.  Rather than arguing for one approach rather than another, the simple platform displayed in Table 2 (pending modifications and further testing) is proposed, pending further input and refinement by the SD community.  In addition, a bibliography on validation in simulation for SD is provided (see Appendix 2), which can then be discussed with peeers or mentors in, for example, a research coaching programs (see section 7.4), ultimately promoting the dissemination of platforms applied to research projects.
+An extensive literature has been created regarding the multiple challenges associated with the validation (or impossibility of validation) of simulation models using SD.  The literature has plenty of personal opinions, many of them related to the local experience of the modeler with a restricted set of modeling problems while disregarding problems that are in fields that are foreign to them.  Rather than arguing for one approach rather than another, the simple platform displayed in Table 2 (pending modifications and further testing) is proposed, pending further input and refinement by the SD community.  In addition, a bibliography on validation in simulation for SD is provided (see Appendix 2), which can then be discussed with peeers or mentors in, for example, a research coaching program (see section 7.4), ultimately promoting the dissemination of platforms applied to research projects.
+
+\begin{comment}
+NOS TEMOS UM APPENDIX E UMA SECAO 7? LUCIANO, ACHO QUE VALERIA A PENA LER O ARTIGO INTEIRO PRA VER SE NAO EXISTEM INCONSISTENCIAS OU OUTRAS COISAS QUE ESTEJAM CITADAS E NAO MAIS FACAM PARTE DO ARTIGO, INCLUINDO REFERENCIAS A ABM
+
+\end{comment}
 
 \section {Manuscript writing}
 
@@ -249,6 +285,22 @@ This section states the main conclusions based on model findings, including poli
 
 \section {Some concerns:  Would a platform limit further expansion of the field or even impose limits to its creativity?}
 One of the common concerns regarding the implementation of platforms in a scientific field is that they will limit the expansion of the field since the bar will be set too high for newcomers.  Since the inflow of newcomers would be lower, the number of members would decrease over time.  We would argue that this statement oversees that the what attracts newcomers is not that the field has scientific rules that welcome a wide variety of quality levels in modeling studies.  Instead, what would attract newcomers is if suggested platforms were in place so that results can be compared across different models, ultimately leading the field might to accumulate information and later be taken into new, more sophisticated directions.  Although not having any empirical evidence to demonstrate this statement, the concern raised by those concerned with setting a platform seems follows along the SD archetype called "drifting goals" \cite{systems-thinking}, in that not adhering to a platform undermines the intended balance to increase the size and quality of the overall simulation community.
+
+
+\section {Conclusion}
+This article outlines some initial concepts that can be used as a springboard toward the creation of a standardized platform for the design, data instantiation, and reporting of System Dynamics models. We do not cover standards for model dissemination, although we believe that methods such as Mediated Modeling 
+
+\begin{comment}
+http://goo.gl/AHZ4 POR FAVOR INSIRA A REFERENCIA -- COLOQUEI O LINK SO COMO REFERENCIA
+\end{comment}
+
+are equally important to ensure that System Dynamics models can be used to modify practice rather than simply serve as a theoretical exercise. We hope that some of these ideas can elicit discussion among SD modelers.
+
+
+\begin{comment}
+LUCIANO, POR FAVOR VEJA QUE TODAS AS ABREVIACOES ESTEJAM CORRETAS, OU SEJA, UMA VEZ QUE UMA ABREVIACAO SEJA DECLARADA, A PARTIR DALI SO A ABREVIACAO E USADA E NAO MAIS O NOME INTEIRO.
+\end{comment}
+
 
 
 %INICIO DA BIBLIOGRAFIA
